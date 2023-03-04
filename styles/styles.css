@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
+    font-display: swap;
+}
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+}
+body {
+   font-family: "PT Sans", sans-serif;
+   font-size: 22px;
+   line-height: 26px;
+   color: #000000;
+   background-color: #ffffff;
+}
+.button {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    color:#ffffff;
+    text-transform:uppercase;
+    text-decoration: none;
+    text-align: center;
+}
+.navigation-item .button {
+    font-size: 16px;
+    line-height: 20px;
+    background-color: rgba(117, 97, 87, 1);
+}
+.page-header {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.navigation-link {
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color:#000000;
+    background-color: #ffffff;
+}
+.main-index {
+    color:#000000;
+    background-color: #ffffff;
+    background-image: url("../images/index-background.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+h2 {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform:uppercase;
+}
+h3 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    text-transform:uppercase;
+}
+.advantages-list{
+    text-align:center;
+}
+.advantages-item-town,
+.advantages-item-bridge {
+    background-color:rgba(130, 179, 211, 1);
+}
+.advantages-item-square,
+.advantages-item-tourists {
+    background-color:rgba(131, 179, 211, 0.12);
+}
+.advantages-item-road {
+    background-color: rgba(131,179,211,0.2);
+}
+.services {
+    text-align:center;
+}
+.services-descriptions {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+}
+.hotels {
+    text-align: center;
+}
+.hotels p {
+    font-weight: 400;
+}
+.hotels .button {
+    font-size: 20px;
+    line-height: 36px;
+    background-color: rgba(117, 97, 87, 1);
+}
+.newsletter {
+    text-align: center;
+    background-image: url("../images/subscribe-background.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.newsletter p {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.newsletter .button {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform:uppercase;
+    background-color: rgba(130, 179, 211, 1);
+}
+.contacts-phone {
+    font-family: "PT Sans", sans-serif;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 400;
+    color:#000000;
+    text-transform:uppercase;
+    text-align: center;
+}
